@@ -1,0 +1,92 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styling untuk Navbar */
+nav {
+    background-color: #dcb414;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(244, 237, 237);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #31290b;
+    border-radius: 4px;
+}
+
+header {
+    background-color: #f4f0e4;
+    color: rgb(49, 41, 80);
+    padding: 50px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    margin-bottom: 40px;
+}
+
+#biografi, #pemikiran, #karya, #wafat {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.karya {
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+img {
+    width: 250px; /* Ubah sesuai dengan ukuran yang Anda inginkan */
+    height: auto; /* Menjaga proporsi gambar */
+    border-radius: 5px; /* Opsional, untuk membuat sudut gambar melengkung */
+}
+
+.gambar-container {
+    text-align: center;
+}
+
+.gambar-container img {
+    width: 350px; /* Ubah ukuran sesuai kebutuhan */
+    height: auto;
+}

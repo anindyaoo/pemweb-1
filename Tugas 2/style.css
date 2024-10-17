@@ -1,0 +1,31 @@
+/* Mengatur gaya untuk seluruh halaman */
+body {
+    background-color: #f0f0f0; /* Mengubah latar belakang menjadi abu-abu muda */
+    font-family: Arial, sans-serif; /* Mengatur font untuk seluruh halaman */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 20px; /* Menambahkan padding di sekitar konten */
+}
+
+/* Mengatur gaya untuk judul */
+h3 {
+    color: #2c3e50; /* Mengubah warna teks menjadi biru gelap */
+    text-align: center; /* Mengatur teks agar berada di tengah */
+}
+
+/* Mengatur gaya untuk paragraf */
+p {
+    line-height: 1.6; /* Mengatur jarak antar baris untuk kemudahan membaca */
+    color: #34495e; /* Mengubah warna teks menjadi abu-abu gelap */
+}
+
+/* Mengatur gaya untuk gambar */
+img {
+    border: 2px solid #2980b9; /* Menambahkan border berwarna biru pada gambar */
+    border-radius: 8px; /* Menambahkan sudut melengkung pada border */
+}
+
+/* Mengatur gaya untuk elemen dengan ID tertentu */
+#judul1 {
+    font-size: 24px; /* Mengatur ukuran font untuk judul */
+    margin-bottom: 20px; /* Menambahkan jarak di bawah judul */
+}
