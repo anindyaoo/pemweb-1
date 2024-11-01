@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #442940;;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -61,7 +61,7 @@ section {
 }
 
 .skill {
-    background: #333;
+    background: #392835;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -77,7 +77,7 @@ form input, form textarea {
 
 form button {
     padding: 10px 20px;
-    background: #333;
+    background: #392835;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -91,7 +91,7 @@ form button:hover {
 footer {
     padding: 20px;
     text-align: center;
-    background: #333;
+    background: #442940;;
     color: #fff;
 }
 
@@ -105,4 +105,3 @@ img {
     height: auto; /* Menjaga proporsi gambar */
     border-radius: 5px; /* Opsional, untuk membuat sudut gambar melengkung */
 }
-
