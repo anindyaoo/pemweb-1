@@ -69,11 +69,14 @@
             echo '<div class="result">';
             if ($skor >= 85) {
                 echo "<p>Kategori: <strong>Sangat Baik</strong></p>";
-            } elseif ($skor >= 70) {
+            }
+            if ($skor < 85 && $skor >= 70) {
                 echo "<p>Kategori: <strong>Baik</strong></p>";
-            } elseif ($skor >= 55) {
+            }
+            if ($skor < 70 && $skor >= 55) {
                 echo "<p>Kategori: <strong>Cukup</strong></p>";
-            } else {
+            }
+            if ($skor < 55) {
                 echo "<p>Kategori: <strong>Kurang</strong></p>";
             }
             echo '</div>';
