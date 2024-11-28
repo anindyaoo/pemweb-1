@@ -49,7 +49,7 @@ for($i = 0; $i < 5; $i++){
 }
 echo "<hr>";
 
-//perulangan bersarang 1
+//perulangan bersarang 2
 $i = 0;
 while($i < 10){
     for($j = 0; $j < 10; $j++){
